@@ -1,5 +1,7 @@
 ## Bastion
 
+[![Build Status](https://travis-ci.com/telia-oss/terraform-aws-bastion.svg?branch=master)](https://travis-ci.com/telia-oss/terraform-aws-bastion)
+
 Template for provisioning an auto-scaling bastion instance with static IP.
 Authorized keys are added at launch, and ingress is limited to the specified
 CIDR blocks.
